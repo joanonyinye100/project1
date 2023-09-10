@@ -62,7 +62,7 @@
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nesciunt dolore repudiandae aspernatur architecto cupiditate facilis nostrum incidunt explicabo hic.</p>
                 </div>
             </div>
-
+<!-- for the box container(gutter) -->
             <div class="row text-center">
                 <div class="col-sm-12 col-md-6 col-lg-4 box p-5">
                     <div class="card">
@@ -94,11 +94,12 @@
                     </div>
                 </div>
             </div>
+            <!-- about our company -->
             <div class="company-info">
             <div class="row p-5 m-5" >
               <div class="col-sm-12 col-md-6 col-lg-6">
                 <h6 class="pink-text">ABOUT OUR COMPANY</h6>
-                <h1>the best choice for your successfull business</h1>
+                <h1>The best choice for your successfull business</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur voluptas possimus explicabo debitis, quae architecto repellat. Optio a aperiam, adipisci dolores voluptatum asperiores perspiciatis reprehenderit ullam! Optio, sit? Harum, architecto.</p>
                 <button>Read More</button>
               </div>
@@ -106,7 +107,7 @@
                 <img src="assets/images/about.jpg" alt="about">
               </div>
             </div>
-            <div class="row">
+            <div class="row g-4">
               <div class="col-sm-12 col-md-12 col-lg-4">
                 <div class="card">
                   <div class="card-body">
@@ -141,7 +142,9 @@
         </section>
     </section>
     <section class="section-4 p-5 m-5">
+      <div class="overlay-section4"></div>
       <div class="row">
+      <!-- performance review section -->
         <div class="col text-left">
           <h1>We are true to ourselves, and commit to always preform at our best</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, magni ullam repudiandae veritatis, blanditiis impedit voluptatem distinctio velit reiciendis recusandae quasi natus dolores quaerat libero a ex, provident alias fugiat.</p>
@@ -213,7 +216,7 @@
           <img src="assets/images/women.jpg">
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6">
-          <p class="dropdown">There are many passages the majority?</p>
+          <p class="dropdown-menu">There are many passages the majority?</p>
           <p class="dropdown">Sed ut perspiciatas unde omnis?</p>
           <p class="dropdown">At vero iusto odio ducimus qui?</p>
           <p class="dropdown">We denounce with righteous?</p>
@@ -223,7 +226,7 @@
       </div>
     </section>
     <section class="section8 m-5 p-5">
-      <div class="row text-center" >
+      <div class="row text-center " >
         <div class="col">
           <h6 class="pink-text">FEATURED CASE</h6>
           <h1>Complete Project</h1>
@@ -258,6 +261,7 @@
     </section>
     <section class="section9 p-5 m-5">
       <div class="row text-center">
+        <div class="overlay-section9"></div>
         <div class="col">
           <h6 class="pink-text">OUR CLIENT TESTIMONIALS</h6>
           <H1>What People Say</H1>
@@ -267,21 +271,29 @@
       </div>
       <div class="row">
         <div class="col">
-         <div class="display">
-          <img src="assets/images/team3.jpg"  class="round display">
-          <p class="display">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat magni nemo, cumque, beatae dolore impedit nesciunt reiciendis porro modi, earum voluptate ipsum quod exercitationem quisquam ad ratione illo voluptates commodi!</p>
+         <div class="card">
+          <div class="card-body">
+            <div class="display">
+              <img src="assets/images/team3.jpg"  class="round display">
+              <p class="display m-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat magni nemo, cumque, beatae dolore impedit nesciunt reiciendis porro modi, earum voluptate ipsum quod exercitationem quisquam ad ratione illo voluptates commodi!</p>
+             </div>
+              <h4 class="pink-text text-center">Isabelle mia</h4>
+              <p class="text-center">company name</p>
+            </div>
          </div>
-          <h4 class="pink-text text-center">Isabelle mia</h4>
-          <p class="text-center">company name</p>
         </div>
         <div class="col">
-          <div class="display2">
-            <img src="assets/images/team4.jpg" class="round img-circle" alt="">
-           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus nihil saepe sint aperiam nobis laudantium numquam, nam corporis ex necessitatibus veritatis omnis eaque minima sequi eum obcaecati debitis earum molestias?</p>
+          <div class="card">
+            <div class="card-body">
+              <div class="display2">
+                <img src="assets/images/team4.jpg" class="round" alt="">
+               <p class="m-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus nihil saepe sint aperiam nobis laudantium numquam, nam corporis ex necessitatibus veritatis omnis eaque minima sequi eum obcaecati debitis earum molestias?</p>
+              </div>
+              <h4 class="pink-text text-center">Benjamin Lucas</h4>
+              <p class="text-center">company name</p>
+            </div>
+            </div>
           </div>
-          <h4 class="pink-text text-center">Benjamin Lucas</h4>
-          <p class="text-center">company name</p>
-        </div>
       </div>
     </section>
     <section class="section10">
@@ -323,12 +335,15 @@
         </div>
           <div class="col-sm-12 col-md-6 col-lg-3">
             <h2>Newsletter</h2>
-            <div class="Newsletter">
+            <div class="card">
+              <div class="card-body">
                 <h4>Get Latest updates and offers</h4>
                 <input type="email" placeholder="Email Address">
-                <button>GO</button>
+                <button class="bg-danger">GO</button>
                 <p>Sign-up  for our latest news & article. We wont give you spam</p>
+              </div>
             </div>
+                
           </div>
         </div>
       </div>
