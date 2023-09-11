@@ -73,8 +73,17 @@
     background-color: #f3f8fb;
     
 }
+.true{
+    z-index: 99999;
+
+}
 body .container-fluid .company-info{
     background-color: #f3f8fb;
+}
+.container-fluid-bold{
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
 }
 body .container-fluid .company-info button{
     background-color: #a0041e;
@@ -148,9 +157,11 @@ h1{
 }
 .dropdown{
     border: 2px solid white;
-    margin: 40px;
     background-color: white;
-    padding: 10px;
+    display: block;
+    margin-right: 10px;
+    margin-left: 20px;
+    padding: 15px;
 }
 hr{
     padding: 1px;
@@ -183,6 +194,7 @@ position: relative;
 }
 body .section9 .col .display{
     display: flex;
+    z-index: 9999;
 }
 .display2{
     display: flex;
@@ -191,9 +203,10 @@ body .section9 .round{
     border-radius:1000px;
     width: 80px;
     border: 2px solid #a0041e;
-    width: 50px;
+    width: 200px;
     height: 80px;
     margin-top: 50px;
+    z-index: 9999;
 }
 .section10 input{
     width: 60%;
